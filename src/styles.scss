@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
+
+html,
+body {
+  height: 100;
+  background: #f6f6f6;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
