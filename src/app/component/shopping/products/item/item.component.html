@@ -1,1 +1,17 @@
-<p>item works!</p>
+<div
+  class="product col flex-column d-flex align-items-center justify-content-center"
+>
+  <div class="feature-icon d-inline-flex text-bg-primary bg-gradient fs-2 mb-3">
+    <img [src]="productItem.images" alt="" class="img-fluid" />
+  </div>
+  <h3 class="fs-5">{{ productItem.productName }}</h3>
+  <p class="size text-center m-0">{{ productItem.size }} oz</p>
+  <p class="fs-6 text-center des">
+    {{ productItem.description }}
+  </p>
+  <div class="price">
+    <a class="uti" type="button" (click)="addToCart(productItem)"> Add to Cart </a>
+    |
+    {{ productItem.price | currency }}
+  </div>
+</div>

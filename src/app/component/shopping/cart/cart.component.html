@@ -1,33 +1,22 @@
 <div class="row">
-  <div class="col-12 cart-container">
+  <div class="col-12 cart-container" *ngIf="productItem.length == 0">
+    Your Cart is empty
+  </div>
+  <div class="col-12 cart-container" *ngIf="productItem.length > 0">
     <h6>Your Order Summary</h6>
     <div class="cart">
       <ul>
-        <li>
+        <li *ngFor="let item of productItem">
           <div class="me-auto detail">
-            <div class="img">
-              <fa-icon [icon]="del"></fa-icon>
-            </div>
-          s  <div>
-              <span>Leathr</span>
-              <span class="price">price</span>
-            </div>
-          </div>
-          <div class="qty">
-            2
-          </div>
-        </li>
-        <li>
-          <div class="me-auto detail">
-            <div class="img">
+            <div class="img" [style]="{'background-image':'url('+ item.images}">
               <fa-icon [icon]="del"></fa-icon>
             </div>
             <div>
-              <span>Leathr</span>
-              <span class="price">price</span>
+              <span>{{ item.productName }}</span>
+              <span class="price">{{ item.price | currency }}</span>
             </div>
           </div>
-          <div class="price">2500.00</div>
+          <div class="qty">{{ item.qty }}</div>
         </li>
       </ul>
     </div>

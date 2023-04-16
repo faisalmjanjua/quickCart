@@ -13,7 +13,6 @@
       span {
         width: 100%;
         display: block;
-        background-color: aqua;
         font-weight: 300;
       }
       span.price {
@@ -26,6 +25,10 @@
       }
       .img {
         position: relative;
+        background-repeat: no-repeat;
+        background-position: center-top;
+        background-size: contain;
+
         fa-icon {
           font-size: 12px;
           position: absolute;
@@ -42,7 +45,7 @@
         border-radius: 3px;
         height: 50px;
         width: 50px;
-        background: #9aa2aa;
+        // background: #9aa2aa;
         margin-right: 0.9em;
       }
     }
