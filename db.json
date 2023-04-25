@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Cedarwood",
+      "description": "Cedarwood Oil excellent in aroma therapy becaues it remains",
+      "size": 5,
+      "package": "plastic",
+      "price": 52.99,
+      "stock": 1,
+      "imageUrl": "assets/cedarwood.png"
+    },
+    {
+      "id": 2,
+      "name": "Lavender",
+      "description": "essential oil is perfect for your bath or shower",
+      "size": 5,
+      "package": "plastic",
+      "price": 52.99,
+      "stock": 1,
+      "imageUrl": "assets/lavender.png"
+    },
+    {
+      "id": 3,
+      "name": "Vetiver",
+      "description": "Effect on both the mind and the skin when used in a aromatherpy",
+      "size": 5,
+      "package": "plastic",
+      "price": 52.99,
+      "stock": 1,
+      "imageUrl": "assets/vetiver.png"
+    },
+    {
+      "id": 4,
+      "name": "Jasmine",
+      "description": "Jasmine essential oil has been used for centuries in the form of perfume ",
+      "size": 5,
+      "package": "plastic",
+      "price": 52.99,
+      "stock": 1,
+      "imageUrl": "assets/jasmine.png"
+    },
+
+    {
+      "id": 5,
+      "name": "Gardenia",
+      "description": "Gardenia essential oil is primarily used as fragrance.",
+      "size": 5,
+      "package": "plastic",
+      "price": 52.99,
+      "stock": 1,
+      "imageUrl": "assets/gardenia.png"
+    },
+    {
+      "id": 6,
+      "name": "Chamonile",
+      "description": "The chamomile roman essential oil also referred to as Roman.",
+      "size": 5,
+      "package": "plastic",
+      "price": 52.99,
+      "stock": 1,
+      "imageUrl": "assets/chamonile.png"
+    },
+
+    {
+      "id": 7,
+      "name": "Peppermin",
+      "description": "Peppermint essential oil is known for its ability to calm the mind, body.",
+      "size": 5,
+      "package": "plastic",
+      "price": 52.99,
+      "stock": 1,
+      "imageUrl": "assets/peppermin.png"
+    },
+    {
+      "id": 8,
+      "name": "Lemon",
+      "description": "The citrus lemon essential oil has a myriad of uses. It can be used.",
+      "size": 5,
+      "package": "plastic",
+      "price": 52.99,
+      "stock": 1,
+      "imageUrl": "assets/lemon.png"
+    },
+
+    {
+      "id": 9,
+      "name": "Bergamot",
+      "description": "The oil obtained from its peel gives it a fresh aroma with hints of grapefruit.",
+      "size": 5,
+      "package": "plastic",
+      "price": 52.99,
+      "stock": 1,
+      "imageUrl": "assets/bergamot.png"
+    }
+  ],
+  "carts": [],
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
