@@ -8,7 +8,8 @@
       "package": "plastic",
       "price": 52.99,
       "stock": 1,
-      "imageUrl": "assets/cedarwood.png"
+      "imageUrl": "./src/assets/cedarwood.png",
+      "qty": 1
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "package": "plastic",
       "price": 52.99,
       "stock": 1,
-      "imageUrl": "assets/lavender.png"
+      "qty": 1,
+      "imageUrl": "./src/assets/lavender.png"
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "package": "plastic",
       "price": 52.99,
       "stock": 1,
-      "imageUrl": "assets/vetiver.png"
+      "qty": 1,
+      "imageUrl": "./src/assets/vetiver.png"
     },
     {
       "id": 4,
@@ -38,9 +41,9 @@
       "package": "plastic",
       "price": 52.99,
       "stock": 1,
-      "imageUrl": "assets/jasmine.png"
+      "qty": 1,
+      "imageUrl": "./src/assets/jasmine.png"
     },
-
     {
       "id": 5,
       "name": "Gardenia",
@@ -49,7 +52,8 @@
       "package": "plastic",
       "price": 52.99,
       "stock": 1,
-      "imageUrl": "assets/gardenia.png"
+      "qty": 1,
+      "imageUrl": "./src/assets/gardenia.png"
     },
     {
       "id": 6,
@@ -59,9 +63,9 @@
       "package": "plastic",
       "price": 52.99,
       "stock": 1,
-      "imageUrl": "assets/chamonile.png"
+      "qty": 1,
+      "imageUrl": "./src/assets/chamonile.png"
     },
-
     {
       "id": 7,
       "name": "Peppermin",
@@ -70,7 +74,8 @@
       "package": "plastic",
       "price": 52.99,
       "stock": 1,
-      "imageUrl": "assets/peppermin.png"
+      "qty": 1,
+      "imageUrl": "./src/assets/peppermin.png"
     },
     {
       "id": 8,
@@ -80,9 +85,9 @@
       "package": "plastic",
       "price": 52.99,
       "stock": 1,
-      "imageUrl": "assets/lemon.png"
+      "qty": 1,
+      "imageUrl": "./src/assets/lemon.png"
     },
-
     {
       "id": 9,
       "name": "Bergamot",
@@ -91,11 +96,19 @@
       "package": "plastic",
       "price": 52.99,
       "stock": 1,
-      "imageUrl": "assets/bergamot.png"
+      "qty": 1,
+      "imageUrl": "./src/assets/bergamot.png"
     }
   ],
   "carts": [],
-
+  "wishList": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    }
+  ],
   "posts": [
     {
       "id": 1,

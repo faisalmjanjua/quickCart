@@ -1,5 +1,6 @@
-export class Products {
+export class CartItem {
   id: number;
+  productId: number;
   name: string; // Include the name of the organic oil, such as "Organic Lavender Essential Oil" or "Organic Jojoba Oil."
   description: string;
   size: number; //Mention the volume or size of the oil, such as 4 oz or 30 ml.
@@ -9,15 +10,16 @@ export class Products {
   images: string;
   qty: number;
 
-  constructor(id, name, description, size, packaging, price, stock, qty, images) {
+  constructor(id, product: Products) {
     this.id = id;
-    this.name = name;
-    this.description = description;
-    this.size = size;
-    this.packaging = packaging;
-    this.price = price;
-    this.stock = stock;
-    this.qty = qty;
-    this.images = images;
+    this.productId = product.id;
+    this.name = product.name;
+    this.description = product.description;
+    this.size = product.size;
+    this.packaging = product.packaging;
+    this.price = product.price;
+    this.stock = product.stock;
+    this.qty = product.qty;
+    this.images = product.images;
   }
 }

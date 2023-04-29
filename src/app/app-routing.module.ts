@@ -1,16 +1,26 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { ShoppingComponent } from './component/shopping/shopping.component';
+import { LoginComponent } from './component/login/login.component';
+import { RegisterComponent } from './component/register/register.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'shopping',
-    pathMatch: 'full'
+    redirectTo: 'shop',
+    pathMatch: 'full',
   },
   {
-    path: 'shopping',
+    path: 'login',
+    component: LoginComponent,
+  },
+  {
+    path: 'register',
+    component: RegisterComponent,
+  },
+  {
+    path: 'shop',
     component: ShoppingComponent,
   },
 ];

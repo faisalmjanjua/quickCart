@@ -1,5 +1,10 @@
 import { Injectable } from '@angular/core';
 import { Products } from '../models/products';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { productsUrl } from '../config/api';
+
+const apiUrl = 'http://localhost:3000/products';
 
 @Injectable({
   providedIn: 'root',
@@ -107,9 +112,12 @@ export class ProductsService {
     // ),
   ];
 
-  constructor() {}
+  constructor(private _http: HttpClient) {}
 
-  getAllProducts() {
-    return this.products;
+  getAllProducts(): Observable<Products[]> {
+    // return this.products;
+    return this._http.get<Products[]>(productsUrl);
   }
+
+  
 }
